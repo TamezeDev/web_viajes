@@ -458,6 +458,9 @@ footer {
 
 /* --------PHONE--------- */
 @media (max-width: 480px) {
+    .menu {
+    animation: none;
+  }
   .hero-image {
     margin: var(--space-xs), var(--space-m);
   }
@@ -499,6 +502,7 @@ footer {
   }
   .menu {
     gap: var(--space-xs);
+    animation: none;
   }
   .menu a {
     font-size: var(--space-s);
